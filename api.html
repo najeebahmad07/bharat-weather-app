@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet/api.css">
+    <title>Weather API</title>
+</head>
+<body>
+    <div class="njb"><center><h1> Weather API</h1></center></div>
+    <img src="images/api.gif" alt="" width="100%" height="300"><br>
+
+    <h1>YOUR API IS KEY:<BR></h1>
+     <div class="njb">
+        <h2>931f131dde3f4ae2fcbc3289fc646471</h2>
+
+     </div>
+     <br>
+     <button onclick="copyH2Text()">Copy Code</button><br>
+     <img src="images/thankyou.gif" alt="" width="100%">
+
+     <script src="javascript/copy.jss"></script>
+     <script>
+        function copyH2Text() {
+
+          let h2Text = document.querySelector('h2').textContent;
+
+          var tempTextArea = document.createElement('textarea');
+          tempTextArea.value = h2Text;
+          document.body.appendChild(tempTextArea);
+
+
+          tempTextArea.select();
+          tempTextArea.setSelectionRange(0, 99999);
+
+
+          document.execCommand('copy');
+
+
+          document.body.removeChild(tempTextArea);
+
+
+          alert('Successfully Copy😊: ' + h2Text);
+        }
+    </script>
+</body>
+</html>

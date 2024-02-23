@@ -1,0 +1,27 @@
+
+#njb
+{
+
+    font-weight: bold;
+    color:  #0a4275;
+    text-wrap: nowrap;
+    font-size: 20px;
+    font-family: Nunito,sans-serif;
+}
+#njb:hover{
+    border: 2px solid green;
+    height: auto;
+    width: auto;
+    border-radius: 200px;
+}
+.h{
+    color: #6781a6;
+}
+#search-btn{
+    color: white;
+}
+
+
+
+
+

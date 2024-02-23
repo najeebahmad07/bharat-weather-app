@@ -1,0 +1,15 @@
+.vb{
+    border: 2px solid black;
+    color: #85cb00;
+}
+.njb{
+    border: 2px solid green;
+    height: auto;
+    width: auto;
+
+}
+button {
+    height: 30px;
+    width: 100px;
+    border: 2px solid #bd3b3b;
+}
